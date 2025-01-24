@@ -49,6 +49,15 @@ jobs:
         command: "./build/appTests ex4"
         timeout: 10
         max-score: 20
+    - name: test5
+      id: test5
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: test5
+        setup-command: ''
+        command: "./build/appTests ex5"
+        timeout: 10
+        max-score: 20
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
@@ -56,5 +65,6 @@ jobs:
         TEST2_RESULTS: "${{steps.test2.outputs.result}}"
         TEST3_RESULTS: "${{steps.test3.outputs.result}}"
         TEST4_RESULTS: "${{steps.test4.outputs.result}}"
+        TEST5_RESULTS: "${{steps.test5.outputs.result}}"
       with:
-        runners: test1,test2,test3,test4
+        runners: test1,test2,test3,test4,test5
