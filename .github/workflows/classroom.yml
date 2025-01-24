@@ -18,7 +18,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: test1
-        setup-command: make appTests
+        setup-command: make ./build/appTests
         command: "./build/appTests ex1"
         timeout: 10
         max-score: 20
