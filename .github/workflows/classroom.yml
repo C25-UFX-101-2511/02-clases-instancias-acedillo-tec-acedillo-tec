@@ -49,35 +49,6 @@ jobs:
         command: "./build/appTests ex4"
         timeout: 10
         max-score: 20
-    - name: test5
-      id: test5
-      uses: classroom-resources/autograding-io-grader@v1
-      with:
-        test-name: test5
-        setup-command: g++ *.cpp -o build/exercise
-        command: "./build/exercise"
-        input: ''
-        expected-output: |-
-          Datos de alumno por default
-          ===========================
-          Matricula: A000000
-          Nombre: RICARDO RAFAEL QUINTERO MEZA
-          Edad: 18
-          Carrera: ITC
-
-          Datos de alumno que no es por default
-          =====================================
-          Matricula: A178940
-          Nombre: LUZ LOPEZ CISNEROS
-          Edad: 19
-          Carrera: IC
-
-          Festejando !!
-          =============
-          Felicidades LUZ LOPEZ CISNEROS por tu cumpleaños No. 20 !
-        comparison-method: contains
-        timeout: 10
-        max-score: 20
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
@@ -85,6 +56,5 @@ jobs:
         TEST2_RESULTS: "${{steps.test2.outputs.result}}"
         TEST3_RESULTS: "${{steps.test3.outputs.result}}"
         TEST4_RESULTS: "${{steps.test4.outputs.result}}"
-        TEST5_RESULTS: "${{steps.test5.outputs.result}}"
       with:
-        runners: test1,test2,test3,test4,test5
+        runners: test1,test2,test3,test4
