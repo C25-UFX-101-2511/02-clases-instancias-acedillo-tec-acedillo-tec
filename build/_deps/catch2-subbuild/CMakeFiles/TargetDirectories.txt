@@ -1,0 +1,3 @@
+/workspaces/02-clases-instancias-acedillo-tec-acedillo-tec/build/_deps/catch2-subbuild/CMakeFiles/rebuild_cache.dir
+/workspaces/02-clases-instancias-acedillo-tec-acedillo-tec/build/_deps/catch2-subbuild/CMakeFiles/edit_cache.dir
+/workspaces/02-clases-instancias-acedillo-tec-acedillo-tec/build/_deps/catch2-subbuild/CMakeFiles/catch2-populate.dir
