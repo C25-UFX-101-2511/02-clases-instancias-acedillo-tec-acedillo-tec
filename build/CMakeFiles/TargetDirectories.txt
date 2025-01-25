@@ -1,8 +1,0 @@
-/workspaces/02-clases-instancias-acedillo-tec-acedillo-tec/build/CMakeFiles/rebuild_cache.dir
-/workspaces/02-clases-instancias-acedillo-tec-acedillo-tec/build/CMakeFiles/edit_cache.dir
-/workspaces/02-clases-instancias-acedillo-tec-acedillo-tec/build/CMakeFiles/test.dir
-/workspaces/02-clases-instancias-acedillo-tec-acedillo-tec/build/CMakeFiles/appTests.dir
-/workspaces/02-clases-instancias-acedillo-tec-acedillo-tec/build/CMakeFiles/exercise.dir
-/workspaces/02-clases-instancias-acedillo-tec-acedillo-tec/build/_deps/catch2-build/CMakeFiles/edit_cache.dir
-/workspaces/02-clases-instancias-acedillo-tec-acedillo-tec/build/_deps/catch2-build/CMakeFiles/test.dir
-/workspaces/02-clases-instancias-acedillo-tec-acedillo-tec/build/_deps/catch2-build/CMakeFiles/rebuild_cache.dir

@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/exercise.dir/Alumno.cpp.o CMakeFiles/exercise.dir/exercise.cpp.o  -o exercise 

@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/appTests.dir/Alumno.cpp.o CMakeFiles/appTests.dir/test/tests.cpp.o  -o appTests 
